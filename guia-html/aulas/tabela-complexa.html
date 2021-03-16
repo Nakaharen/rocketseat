@@ -2,24 +2,31 @@
 
     <caption>Produzidos x Vendidos por loja</caption>
 
+    <colgroup>
+        <col>
+        <col span="2" style="background-color: turquoise">
+        <col span="2" style="background-color: pink;">
+
+    </colgroup>
+
     <thead>
         <tr>
             <th rowspan="2"></th> </th>
-            <th colspan="2">Afonso Pena</th>
-            <th colspan="2">Antônia Pereira</th> 
+            <th colspan="2" scope="colgroup">Afonso Pena</th>
+            <th colspan="2" scope="colgroup">Antônia Pereira</th> 
         </tr>
 
         <tr>
-            <th>Produzidos</th>
-            <th>Vendidos</th>
-            <th>Produzidos</th>
-            <th>Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
         </tr>
     </thead>
 
     <tbody>
         <tr>
-            <th>Vassouras</th>
+            <th scope="row">Vassouras</th>
             <td>50</td>
             <td>30</th>
             <td>20</td>
