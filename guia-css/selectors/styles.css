@@ -1,0 +1,13 @@
+#container {
+    width: 200px;
+}
+
+.m-40 {
+    margin: 40px;
+}
+
+h1, h2 { 
+    color: purple;
+    font-size: 50px;
+    background: lightpink
+}
