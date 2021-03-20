@@ -1,0 +1,10 @@
+@import 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap';
+
+h1 { 
+    color: darkmagenta;
+    font-family: 'Press Start 2P';
+}
+
+strong {
+    color: violet;
+}
