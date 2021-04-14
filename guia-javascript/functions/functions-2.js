@@ -12,3 +12,14 @@ let number2= 27
 console.log(`o número 1 é ${number1}`)
 console.log(`o número 2 é ${number2}`)
 console.log(`a soma é ${sum(number1, number2)}`)
+
+/* De forma lúdica
+Função é um "liquidificador"
+
+function fazerSuco(fruta1, fruta2){
+    return fruta1 + fruta 2
+}
+
+const copo = fazerSuco('banana', 'maçã')
+
+console.log(copo) */
